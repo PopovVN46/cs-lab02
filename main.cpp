@@ -19,4 +19,7 @@ int main()
     // Находим минимальное из a и b
     int minNumber = (a < b) ? a : b;
     cout << "Min of A and B = " << minNumber << '\n';
+    // Находим максимальное из a и b
+    int maxNumber = (a > b) ? a : b;
+    cout << "Max of A and B = " << maxNumber << '\n';
 }
