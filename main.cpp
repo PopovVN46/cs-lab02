@@ -13,4 +13,8 @@ int main()
     cout << "A * B = " << a * b << '\n';
     // деление
     cout << "A / B = " << a / b << '\n';
+
+    // Находим максимальное из a и b
+    int maxNumber = (a > b) ? a : b;
+    cout << "Max of A and B = " << maxNumber << '\n';
 }
