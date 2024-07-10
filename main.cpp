@@ -4,7 +4,7 @@ using namespace std;
 // you may type whatever you want
 int main()
 {
-    int a, b;
+    double a, b;
     cout << "Enter A and B: ";
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n';
@@ -15,6 +15,6 @@ int main()
     cout << "A / B = " << a / b << '\n';
 
     // Находим максимальное из a и b
-    int maxNumber = (a > b) ? a : b;
+    double maxNumber = (a > b) ? a : b;
     cout << "Max of A and B = " << maxNumber << '\n';
 }
